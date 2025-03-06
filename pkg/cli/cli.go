@@ -44,8 +44,8 @@ func (c *CLI) Run(args []string) error {
 }
 
 func (c *CLI) addTask(args []string) error {
-    if len(args) != 3 {
-        return fmt.Errorf("usage: gotta do <description> <when>")
+    if len(args) != 2 {
+        return fmt.Errorf("usage: gotta do <description>")
     }
 
     task := models.Task{
