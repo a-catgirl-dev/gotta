@@ -1,6 +1,6 @@
 # Gotta
 
-Gotta is a user friendly task management application written in Go, hence, the name _Go_tta.
+Gotta is a user friendly task management application written in Go, hence, the name *Go*tta.
 
 ![gotta gif](./gotta.gif)
 
